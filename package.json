@@ -1,0 +1,16 @@
+{
+  "name": "atom-escape-brackets",
+  "main": "./lib/atom-escape-brackets",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "activationCommands": {
+    "atom-workspace": "atom-escape-brackets:move"
+  },
+  "repository": "https://github.com/atom/atom-escape-brackets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

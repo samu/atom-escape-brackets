@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle atom-escape-brackets'
+      'command': 'atom-escape-brackets:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-escape-brackets'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'atom-escape-brackets:toggle'
+        }
+      ]
+    ]
+  }
+]
